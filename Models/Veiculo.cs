@@ -5,7 +5,7 @@ namespace TecAdsTrabalhoPratico.Models;
 
 public class Veiculo
 {
-    [Keyt]
+    [Key]
     public int IdVeiculo { get; set; }
 
     public int IdFabricante { get; set; }
