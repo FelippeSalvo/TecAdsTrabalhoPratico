@@ -1,0 +1,6 @@
+@TecAdsTrabahoPratico_HostAddress = http://localhost:5111
+
+GET {{TecAdsTrabahoPratico_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
