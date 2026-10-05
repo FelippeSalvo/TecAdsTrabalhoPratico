@@ -27,10 +27,10 @@ public class Aluguel
     public decimal ValorTotal { get; set; }
 
     [ForeignKey(nameof(IdCliente))]
-    public Cliente Cliente { get; set; } = null!;
+    public Cliente? Cliente { get; set; }
 
     [ForeignKey(nameof(IdVeiculo))]
-    public Veiculo Veiculo { get; set; } = null!;
+    public Veiculo? Veiculo { get; set; }
 
     public ICollection<Pagamento> Pagamentos { get; set; } = new List<Pagamento>();
 }

@@ -19,5 +19,5 @@ public class Pagamento
     public string Status { get; set; } = string.Empty;
 
     [ForeignKey(nameof(IdAluguel))]
-    public Aluguel Aluguel { get; set; } = null!;
+    public Aluguel? Aluguel { get; set; }
 }
